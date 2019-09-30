@@ -1,4 +1,4 @@
-## hexo-translate-title
+## hexo-translate-title-vss
 使用Google翻译，百度翻译和有道翻译将Hexo中的汉字标题转成英文标题，配置完成后直接翻译，无需手工修改标题内容
 
 ## 安装与使用
@@ -8,7 +8,7 @@
 ### 安装
 
 ```bash
-npm install hexo-translate-title --save
+npm install hexo-translate-title-vss --save
 ```
 
 ### 使用
@@ -47,7 +47,7 @@ translate_title:
 
 ## 版本历程
 
-### V1.0.12
+### V1.0.14
 1. 添加`rewrite` 参数，默认为`false`，判断如果存在`translate_title`则不进行翻译，如果为`true`则强制翻译，慎用！
 
 ### V1.0.11
